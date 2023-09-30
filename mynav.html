@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Navigation Bar</title>
+  <style>
+      .home{
+        background-image: url(mtgif2.gif);
+        background-size: cover;
+        height: 100vh;
+      }
+      .nav{
+        height: 70px;
+        background-color: royalblue;
+      }
+      .nav div{
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        padding: 15px;
+        font-size: 30px;
+        color: aliceblue;
+      }
+      .nav ul{
+        position: absolute;
+        right: 15px;
+        align-items: center;
+
+      }
+      .nav ul li{
+        display: inline-block;
+        
+      }
+      .nav ul li a{
+         color: aliceblue;
+         padding: 6px;
+      }
+      .home .text-container{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+      }
+      h1{
+        color: darkblue;
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+      }
+      h2{
+        font-weight: 900;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: darkblue;
+      }
+
+  </style>
+</head>
+<body>
+  <div class="home">
+      <div class="nav">
+         <div>XSTACK</div>
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+           </ul>
+      </div>
+      <div class="text-container">
+         <div>
+          <h1>XSTACK</h1>
+          <h2>Connect and Collaborate with XSTACK:
+             Where virtual meetings become Alive!</h2>
+         </div>
+      </div>
+  </div>
+</body>
+</html>
